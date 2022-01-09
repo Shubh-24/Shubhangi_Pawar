@@ -1,0 +1,135 @@
+github project upload_https://player.vimeo.com/video/643552214h=fd69784c36&title=0&byline=0&portrait=0&playsinline=0&autopause=0&app_id=122963
+ http://github.com/dipesh2597/EdYoda
+https://player.vimeo.com/video/658327424?h=3313850136&title=0&byline=0&portrait=0&playsinline=0&autopause=0&app_id=122963=== food order app video
+
+
+
+From Hackerrank
+1  from collections import Counter
+myList = [1,1,2,3,4,5,3,2,3,4,2,1,2,3]
+>>> print Counter(myList)
+Counter({2: 4, 3: 4, 1: 3, 4: 2, 5: 1})
+
+
+
+
+
+********String**********
+
+1. slicing=l[1:3]
+2.striding=[::2]jupt to every second index
+3.reverse string=[::-1]
+4.a.upper() # everything in upper case
+5.a.lower() # everything in lower case
+6.a.capitalize() # capitalize the very first character of first word and lowers the other first character of every word
+7.a.isupper() # if given string in upper case_give as true
+8.a.islower()# if given string in lower_give as lower
+9.a.title() # all the first characters_changed to upper case
+10.a.istitle() #true/ false_if first char is title
+11.a.count('a') # how many specific chara present in given string
+12.a2=a.replace("shubhangi","ooni")# do not make changes in the original string
+13.l=a.split(",") # split the cell and gives output in the type list_individual element in string format
+14.a.split(" ",1)# split by one occurance
+15."#".join(a)# joins or fevicols two words by #
+16.a.find('b') # help to find index of the character in string a
+ljust(self, width, fillchar=' ', /)_Return a left-justified string of length width.
+rjust(self, width, fillchar=' ', /)_Return a right-justified string of length width.
+startswith(...)_ S.startswith(prefix[, start[, end]]) -> bool_ Return True if S starts with the specified prefix, False otherwise
+swapcase(self, /)_Convert uppercase characters to lowercase and lowercase characters to uppercase
+
+
+*****List*****
+# list_store multiple variables in a single variable
+# mutable, indexing possible,slicing possible,support negative indexing, allows duplicate variable, ordered collection
+#  can add elements at any point of time_mutable
+l.append(i)- l_list which to update, i-element to add at the end
+l1.extend(l2)# extend_simply concatenate two lists_ l2 will add at the end of the list.so change the original first list
+fruit.insert(0,"orange")_lst name.insert(index_at which to add,element to add)
+c.count(1)_counts the occurance of elememnt in the list._list.count(element which to count
+l.pop(0)_remove the element at the given index_if nothing given by  default last index_index as input
+l.remove("o") # remove given element from the list, takes value as an input
+x=l.sort() #l.sort(reverse=false)_ascending order, # l.sort() is not possible to assign to any variable because it makes changes in the original list
+l.sort(reverse=True) # descending order
+sorted(l)# output is always in list, can take input in tuple also, but output in the list only. does not make changes to original list. so can store in variale
+sorted(l,reverse=True) # for descinding order list
+
+*****string formatting*****
+String formatting is the process of infusing things in the string dynamically and presenting the string
+ex_ l=[1,2,3]] for i in l:
+    print("{} and {} feeling".format(i,s))
+    
+*****Dict******
+dict(one=1, two=2), dict2['akshit']='engineer'_way of generating key value pair dict
+dict2[str(i)]=i for i in [1,2,3] #dict comprehension
+dict2.keys() # returns all the keys in dict as a list_list format
+dict2.values() # gives a key value pair_in a tuple
+dict3.pop('student')_need to give key as input_pops out it's value and remove.
+dict3['cars'].pop(0)_if value is list
+setdefault()_takes max two para_key, default value=none
+
+********Iterable_python oject capable of returning the element_one by one _ordered collection_str, set, dict
+
+*****SET*****
+collection of uniue keys, it is mutable, indexing not possible, striding_slicing not possible, elements are immutale but set itself is mutable
+s.add('preeti') # add new element to the set_takes one argument_unordered
+s.update(['kartik','nidhi'])_taking argument in the form of list
+s.clear() # clear whole set
+set operations on the set_do not take duplicate arguents
+| or operation=a.union(b)_union set _combination of two
+a.intersection(b)_common to both taken=and operation
+a.difference(b)__ a-b
+
+*****Functions*******
+def power_of_number():        # while writing and calling fun_no of para and argu should be same.
+    power=number**exponent
+    print(power)
+    return power
+    
+# simply prints the string output
+num=int(input())
+expo=int(input())
+power_of_number()
+
+****Namespace*****
+global= available to every side
+local= locally availale
+
+****packing, unpacking*****
+Packing 
+When we don’t know how many arguments need to be passed to a python function, we can use Packing to pack all arguments in a tuple. 
+Applications and Important Points 
+
+Used in socket programming to send a vast number of requests to a server. 
+Used in the Django framework to send variable arguments to view functions. 
+There are wrapper functions that require us to pass in variable arguments.
+Modification of arguments becomes easy, but at the same time validation is not proper, so they must be used with care.
+
+*****Random Module****
+random.random()_random number_0.0 to 1 values
+random.choice(dice)_randoly choices a nummer from given list
+random.randrange(10,20,2)_random with given interval time from given range
+random.randint(10,20)_random integer fro given list
+random.uniform(10,20.3) # only for float
+random.sample(l,3)_fro given list give 3 random samples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
